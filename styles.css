@@ -1,4 +1,4 @@
-/* Reset básico */
+/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -20,8 +20,15 @@ header {
     text-align: center;
     padding: 30px;
     color: white;
-    font-size: 24px;
-    letter-spacing: 2px;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+header p {
+    font-size: 18px;
+    opacity: 0.9;
 }
 
 /* Navegación */
@@ -45,21 +52,20 @@ nav a:hover {
     color: #ffd700;
 }
 
-/* Contenedor principal */
+/* Main */
 main {
     flex: 1;
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 30px;
     padding: 40px;
     flex-wrap: wrap;
 }
 
-/* Secciones tipo tarjeta */
+/* Tarjetas */
 section {
     background: white;
-    width: 280px;
+    width: 300px;
     padding: 25px;
     border-radius: 15px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
@@ -75,8 +81,23 @@ section h2 {
     color: #2a5298;
 }
 
-section p {
+section p, section ul {
     margin-bottom: 15px;
+}
+
+section ul {
+    padding-left: 20px;
+}
+
+/* Imagen perfil */
+.perfil-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 15px auto;
+    object-fit: cover;
+    border: 3px solid #2a5298;
 }
 
 /* Botón */

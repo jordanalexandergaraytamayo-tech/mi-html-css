@@ -2,42 +2,73 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Mi Sitio Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jordan Alexander Garay Tamayo</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
 <header>
-    <h1>Mi Página Personalizada</h1>
+    <h1>Jordan Alexander Garay Tamayo</h1>
+    <p>Estudiante técnico en plataformas tecnológicas y aplicaciones SG</p>
 </header>
 
 <nav>
-    <a href="#">Inicio</a>
-    <a href="#">Servicios</a>
-    <a href="#">Contacto</a>
+    <a href="#perfil">Perfil</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#experiencia">Experiencia</a>
+    <a href="#contacto">Contacto</a>
 </nav>
 
 <main>
 
-    <section>
-        <h2>Sobre mí</h2>
-        <p>Este es un ejemplo de página usando HTML y CSS puro.</p>
-        <button>Ver más</button>
+    <!-- Tarjeta Perfil -->
+    <section id="perfil">
+        <img src="img/foto.jpeg" alt="Foto de Jordan" class="perfil-img">
+        <h2>Perfil Profesional</h2>
+        <p>Soporte técnico BBVA con experiencia en mantenimiento y desarrollo básico web.</p>
     </section>
 
-    <section>
-        <h2>Servicios</h2>
-        <p>Desarrollo de páginas web modernas y responsivas.</p>
+    <!-- Tarjeta Habilidades -->
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Aprendizaje rápido</li>
+            <li>Alta concentración</li>
+            <li>Responsabilidad</li>
+            <li>Resolución de problemas</li>
+            <li>Capacidad para lograr objetivos</li>
+        </ul>
     </section>
 
-    <section>
+    <!-- Tarjeta Experiencia -->
+    <section id="experiencia">
+        <h2>Formación y Experiencia</h2>
+        <p><strong>Soporte técnico BBVA - Indra</strong><br>
+        Mantenimiento y soporte de plataformas.</p>
+
+        <p><strong>Curso de Desarrollo Web</strong><br>
+        Desarrollo básico de software y páginas web.</p>
+
+        <p><strong>Proyecto Académico</strong><br>
+        Página web informativa usando HTML5.</p>
+    </section>
+
+    <!-- Tarjeta Contacto -->
+    <section id="contacto">
         <h2>Contacto</h2>
         <p>Email: jordanalexandergaraytamayo@gmail.com</p>
+        <p>Ciudad: Bogotá, Colombia</p>
+        <button onclick="alert('Gracias por visitar mi página')">Contactar</button>
     </section>
 
 </main>
 
 <footer>
-    <p>© 2026 - Mi Sitio Web</p>
+    <p>© 2026 - Jordan Alexander Garay Tamayo</p>
 </footer>
+
+</body>
+</html>
 
